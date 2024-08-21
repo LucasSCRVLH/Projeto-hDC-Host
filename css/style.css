@@ -1,0 +1,152 @@
+.header {
+    width: 100%;
+    background-color: #232a31;
+    padding: 10px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+
+}
+
+.logo {
+    width: 50px;
+}
+
+.navbar-itens {
+    list-style: none;
+    align-items: center;
+    gap: 16px;
+    display: flex;
+
+}
+
+.navbar-itens li a {
+    color: white;
+    text-transform: uppercase;
+}
+
+#login-btn {
+    background-color: #2cc76a;
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 4px;
+}
+
+
+.banner {
+
+    background-image: url("../img/mainbanner.png");
+    padding: 50px 8px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.banner h1,
+.banner strong {
+    color: #fff;
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 54px;
+}
+
+.banner strong {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.secao_beneficios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.secao_beneficios ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    padding: 50px;
+}
+
+.beneficios {
+    font-size: 12px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.fa-shield-alt {
+    color: #0fbd49;
+    font-size: 40px;
+}
+
+.fa-rocket {
+    color: #ff1414;
+    font-size: 40px;
+}
+
+.fa-comments {
+    font-size: 40px;
+    color: #fffb00;
+}
+
+.secao_planos strong {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    flex-direction: column;
+}
+
+.secao_planos h2 {
+    display: flex;
+    align-items: center;
+    text-align: center;
+ flex-direction: column;
+ font-size: 15px;
+ padding: 40px;
+}
+.planos {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+    justify-content: center;
+}
+.caixa {
+    width: 200px;
+    background-color: #2f2e38;
+    height: 80px;
+  
+}
+.planos h3{
+    color: #ffffff;
+    margin: 40px;
+}
+.precos_planos{
+    list-style: none;
+        display: flex;
+        gap: 200px; 
+        font-size: 12px;
+        text-align: center;
+        justify-content: center;
+}
+
+.circle{
+ }
