@@ -68,7 +68,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
 
 }
 
@@ -104,49 +104,247 @@
     color: #fffb00;
 }
 
-.secao_planos strong {
-    display: flex;
-    align-items: center;
-    text-align: center;
-    
-    flex-direction: column;
-}
+.planos h3{
 
-.secao_planos h2 {
+    justify-content: center;
+    justify-content: center;
     display: flex;
-    align-items: center;
-    text-align: center;
- flex-direction: column;
- font-size: 15px;
- padding: 40px;
-}
-.planos {
-    list-style: none;
-    display: flex;
-    gap: 60px;
     padding: 20px;
-    font-size: 12px;
+}
+.planos strong{
     text-align: center;
     justify-content: center;
+    display: flex;
+    font-size: 30px;
+    
 }
-.caixa {
-    width: 200px;
-    background-color: #2f2e38;
-    height: 80px;
-  
-}
-.planos h3{
-    color: #ffffff;
-    margin: 40px;
-}
-.precos_planos{
-    list-style: none;
-        display: flex;
-        gap: 200px; 
-        font-size: 12px;
-        text-align: center;
-        justify-content: center;
+.planos{
+    margin: 100px;
 }
 
+.card_planos{
+       
+        justify-content: space-evenly;
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+       list-style: none;
+       width: 100%;
+       align-items: center;
+     
+}
+
+  
+       
+
+
 .circle{
- }
+ 
+            align-items: center;
+            display: flex;
+            justify-content: center;
+            border-radius: 50%;
+             width: 80px;
+            height: 80px;
+             background-color: #8aff46;
+            font-size: 15px;
+            margin-top: -45px;
+}   
+
+
+
+.card_header{
+   padding: 0 20px 15px 20px;
+    background-color: #1b1b18;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.card_header h3{
+    color: #fff;
+        font-size: 15px;
+        
+}
+.circle h3{
+    font-size: 12px;
+    color: #fff;
+
+
+}
+.card_content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+   color: #0a0a0a;
+    
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    background-color: #a9a9aa;
+    width: 250px;
+    justify-content: space-between;
+}
+.button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    width: 100%;
+    background-color: #8aff46;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 1.0s;
+}
+.card footer{
+    width: 100%;
+
+}
+
+.button:hover{
+    background-color: rgb(255, 0, 0);
+}
+
+
+.buscar-dominio {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.div-dominio {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 300px;
+    background-color: #232a31;
+    gap: 20px;
+    width: 100%;
+}
+
+.div-dominio h2,
+p {
+    color: #fff;
+}
+.div-dominio input {
+    width: 50%;
+    max-width: 500px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.div-dominio button {
+    background-color: #0fbd49;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.footer-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+    padding: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    width: 100%;
+}
+
+.footer-social {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+
+.fa-facebook,
+.fa-twitter,
+.fa-instagram {
+    color: #000000;
+    font-size: 30px;
+}
+
+
+.div-input {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    gap: 20px;
+}
+
+.div-input input {
+    flex: 1;
+}
+
+.footer-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 500px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.footer-form textarea {
+    width: 100%;
+
+}
+
+.footer-contato p,
+h2 {
+    color: #000000;
+}
+
+.footer-contato button {
+    background-color: #0fbd49;
+    color: white;
+    padding: 10px 20px;
+    width: 200px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.footer-contato {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(76, 78, 78);
+    gap: 20px;
+    padding-top: 50px;
+}
+
+.footer-contato input {
+    display: flex;
+    flex-direction: row;
+    border: none;
+    border-radius: 4px;
+    width: 200px;
+    height: 40px;
+
+}
+
+.footer-ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  
+}
+
+.footer-ul p {
+    color: black;
+    font-size: 14px;
+    
+}
